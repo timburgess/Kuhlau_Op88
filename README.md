@@ -16,3 +16,9 @@ Kuhlau is regarded as good preparation for the demands of Beethoven's piano musi
 There are some free scores about but in learning this piece, I found that measures 55 - 59 (generally
 the hardest section for the right hand) were incorrect, and sometimes with fingering that was odd
 (at least for me).
+
+
+### Personal edits
+
+- LH starts pp
+
