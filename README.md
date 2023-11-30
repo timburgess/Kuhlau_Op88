@@ -4,9 +4,9 @@ Sonatina in A Minor Op 88 No 3
 
 This sonatina ('small sonata') has three movements:
 
-  * Allegro con affetto
-  * Andantino
-  * Allegro burlesco (this score)
+  * *Allegro con affetto*
+  * *Andantino*
+  * *Allegro burlesco* - this score
 
 Allegro burlesco is a fun but somewhat demanding piece with three multi-octave chromatic 'rips'
 for the intermediate piano player. To the layperson it can sound very virtuoso.
@@ -20,5 +20,5 @@ the hardest section for the right hand) were incorrect, and sometimes with finge
 
 ### Personal edits
 
-- LH starts pp
+- LH starts *pp*
 
