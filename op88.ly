@@ -30,6 +30,23 @@ righthand =  {
 
     f'16-5( e d c b a-3 g f) | e'-5( d c b a g-3 f e | d-4 c b a gis8-.) gis8-.-2 | e''16-5( d c b a g-3 f e) \break
 
+    f'16-5( e d c b a-3 g f) | e'-5( d c b a g-3 f e | d-4 c b a-1 gis-2 a-3 b-4 gis-2 | a8-3)\noBeam a-2([\p ais-3 b-1] c[ cis d-1 dis-2] \break
+
+    e4-3 f8. e16 | d4 g | c,4-1 d8.-3 c16 | b4) <bes-2 e-5>4( a) <aes-2 d-5>( g) <fis-2 c'-5>( <g-1 c-5> <a-2 c-4> \break
+
+    <g~ c>4 <g b>8) r8 | << { g'4-4( a8. g16 f4) } \\ { s4 c4~ c4 } >> 
+                          << { g'8.-5( f16 e4) } \\ { b4~ b4 } >>
+                           << { f'8.-5( e16 d4) } \\ { a4~ a4 } >>
+                            << { e'8.-5( d16 c4) } \\ { g4~ g4 } >> << { d'8.-5( c16 b4) } \\ { f4~ f4 } >> <e-5 c'>4 \break
+
+    <d c'>4( <f b>4 <e c'>4) r4 | e'16 e' c-4 g-2 f f' c-3 a-2 | d,16 d' b-4 f-2 e e' b-3 g-2 | c,16 c' a-4 e-2 d d' a-3 f-2 \break
+
+    b,16 b' g-4 d-2 c c' g-3 e-2 | a,16 a' f-4 c-2 b b' f-3 d-2 | g,16 g' e-4 b-2 a a' e-3 c-2 | f,16 f' d-4 a-2 g g' d-3 b-2 | e,16 e' c-4 g-2 f f' c-3 a-2 \break
+
+    r16
+
+
+
 
    \bar "|."
   }
@@ -44,7 +61,7 @@ lefthand =  {
     \acciaccatura { s8\pp }
 
     a8 <c e> <c e> <c e> |
-    R2*32
+    R2*65
 
 
 
