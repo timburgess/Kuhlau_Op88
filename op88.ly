@@ -36,17 +36,33 @@ righthand =  {
 
     <g~ c>4 <g b>8) r8 | << { g'4-4( a8. g16 f4) } \\ { s4 c4~ c4 } >> 
                           << { g'8.-5( f16 e4) } \\ { b4~ b4 } >>
-                           << { f'8.-5( e16 d4) } \\ { a4~ a4 } >>
-                            << { e'8.-5( d16 c4) } \\ { g4~ g4 } >> << { d'8.-5( c16 b4) } \\ { f4~ f4 } >> <e-5 c'>4 \break
+                           << { f'8.( e16 d4) } \\ { a4~ a4 } >>
+                            << { e'8.( d16 c4) } \\ { g4~ g4 } >> << { d'8.( c16 b4) } \\ { f4~ f4 } >> <e c'>4 \break
 
     <d c'>4( <f b>4 <e c'>4) r4 | e'16 e' c-4 g-2 f f' c-3 a-2 | d,16 d' b-4 f-2 e e' b-3 g-2 | c,16 c' a-4 e-2 d d' a-3 f-2 \break
 
     b,16 b' g-4 d-2 c c' g-3 e-2 | a,16 a' f-4 c-2 b b' f-3 d-2 | g,16 g' e-4 b-2 a a' e-3 c-2 | f,16 f' d-4 a-2 g g' d-3 b-2 | e,16 e' c-4 g-2 f f' c-3 a-2 \break
 
-    r16
+    r16\f e16( b' d e d b e, | e'8-.) r8 r4 | r16 e,16( a c-4 e c a e | e'8-.) r8 r4 | r16 e,( gis b-3 e8-.) r8 | r16 e,( a c-4 e8-.) r8 \break
 
+    r8 e,16-1( fis gis a-1 b cis | dis e-1 fis gis a-1 b cis dis) | e8[ e,8-.-1\f e-.-2 e-.-1] | R2 | \acciaccatura { dis8-4 } e8-5[ e,-.-1 e-.-2 e-.-1] \break
 
+    % 74
+    R2 \acciaccatura { dis''8-4 } e8-.[ e,8-. \acciaccatura { cis'8 } d8-. d,8-.] | \acciaccatura { b'8 } c8-. c,8-. \acciaccatura { a'8 } b8-. b,8-. | 
+      \acciaccatura { gis'8-4\p } a8[ a,-.-1 a-.-3 a-.-2] | a8.-1( c32 b32 a8-.) a8-.-2 \break
 
+    a16-1( b c b a b c d | e2->-5) | \acciaccatura { dis'8-4 } e8[ e,8-.-1 e8-.-3 e8-.-2] | e8.-1( g32-4 f32 e8-.) e8-.-1 | e16-2( f g f e d c-3 b \break
+   
+    a4.) \acciaccatura { gis'8\f } a8 | a,4. \acciaccatura { gis'8 } a8 | a,4. b16-4( a | gis16 a-1 b c d-1 e fis gis | a-1 b c d e8) \acciaccatura { dis8 } e8\f \break
+
+    e,4. \acciaccatura { dis'8 } e8 | e,4. \acciaccatura { dis'8 } e8 | e,8[  \acciaccatura { dis'8 } e8 e,8 \acciaccatura { dis'8 } e8] |
+      e,8 f16-4( e d c b-3 a-1 | gis8\noBeam-4) f16-4( e d c b a \break
+
+    gis8\noBeam) e16-1\p f fis g gis a ais b c cis d dis e f | fis g gis a ais b c cis d dis e f fis g gis b \break
+
+    a8[ a,8-.-1 a-.-3 a-.-2] | a8.-1( c32 b32 a8-.) a8-.-2 | a16-1( b c b a b c d | e4.->) e8-.-2 |
+
+    
 
    \bar "|."
   }
@@ -61,7 +77,7 @@ lefthand =  {
     \acciaccatura { s8\pp }
 
     a8 <c e> <c e> <c e> |
-    R2*65
+    R2*100
 
 
 
