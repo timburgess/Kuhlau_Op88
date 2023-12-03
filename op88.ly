@@ -102,8 +102,18 @@ lefthand =  {
   }
 }
 
+ \paper {
+    #(set-paper-size "a4")
+    max-systems-per-page = 6
+  }
+
 \score {
-   \context PianoStaff << 
+  \new PianoStaff \with {
+    \override StaffGrouper.staff-staff-spacing = #'(
+                            (basic-distance . 10)
+                            (padding . 0))
+  }
+  << 
     \context Staff = "top" <<
       \righthand
     >>
