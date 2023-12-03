@@ -61,10 +61,20 @@ righthand =  {
     gis8\noBeam) e16-1\p f fis g gis a ais b c cis d dis e f | fis g gis a ais b c cis d dis e f fis g gis b \break
 
     a8[ a,8-.-1 a-.-3 a-.-2] | a8.-1( c32 b32 a8-.) a8-.-2 | a16-1( b c b a b c d | e4.->) e8-.-2 |
+      \acciaccatura { gis8 } a8-.[ a,8-. \acciaccatura { cis'8 } d8-. d,8-.] \acciaccatura { dis'8 } e8 e,8-. r16 e16 e' e, \break
 
+    e' e, e' e, e' e, e' e, | e'( d c b a g-3 f e) | f'16-5( e d c b a-3 g f) | e'-5( d c b a g-3 f e | d-4 c b a gis8-.) gis8-.-2 \break
+
+    e''16-5( d c b a g-3 f e) | f'16-5( e d c b a-3 g f) | e'-5( d c b a g-3 f e | d-4 c b a-1 gis-2 a-3 b-4 gis-2 \break
+
+    a8-1) b16 c d-1 e fis gis | a8-5( g16 f e d c-3 b | \stemUp a8 g16-4 f e d c 
+       \change Staff = "bottom" { b } \break
     
+    a8-1 g16-4 f e d c b | a4-.->) r4 | \change Staff = "top" { <c' e a>4-.\ff  <e a c>-. }
 
-   \bar "|."
+    s2 s2 
+
+    \bar "|."
   }
 }
 
@@ -77,7 +87,14 @@ lefthand =  {
     \acciaccatura { s8\pp }
 
     a8 <c e> <c e> <c e> |
-    R2*100
+    s2*116
+
+    a,4-. a'4-. |
+
+    <<
+      { <c, e a>2~ | <c e a>4 r4 } \\ { <a,~ a'~>2 <a a'>4 r4 }
+    >>
+    
 
 
 
@@ -87,10 +104,10 @@ lefthand =  {
 
 \score {
    \context PianoStaff << 
-    \context Staff = "one" <<
+    \context Staff = "top" <<
       \righthand
     >>
-    \context Staff = "two" <<
+    \context Staff = "bottom" <<
       \lefthand
     >>
   >>
