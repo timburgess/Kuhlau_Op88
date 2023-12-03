@@ -105,6 +105,15 @@ lefthand =  {
  \paper {
     #(set-paper-size "a4")
     max-systems-per-page = 6
+    top-margin = 15
+    bottom-margin = 15
+    left-margin = 15
+    right-margin = 15
+    system-system-spacing = #'((basic-distance . 13)
+                              (minimum-distance . 12)
+                              (padding . 6))
+    ragged-bottom = ##t
+    ragged-last-bottom = ##t
   }
 
 \score {
