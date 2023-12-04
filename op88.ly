@@ -14,18 +14,18 @@ righthand =  {
   \numericTimeSignature \time 2/4
   \clef "treble"
   \relative c''' {
-    \acciaccatura { gis8-4\p } a8[ a,-.-1 a-.-2 a-.-3] | a8.-1( c32 b32 a8-.) a8-.-2 | a16-1( b c b a b c d | e2->-5) | \acciaccatura { gis8-4 } a8[ e8-.-1 e8-.-3 e8-.-2] \break
+    \acciaccatura { gis8-4\p } a8[ a,-.-1 a-.-2 a-.-3] | a8.-1( c32 b32 a8-.) a8-.-2 | a16-1( b c b a b c d | e2->-5) | \acciaccatura { dis'8 } e8[ e,8-.-1 e8-.-3 e8-.-2] \break
 
     e8.-1( g32-4 f32 e8-.) e8-.-1 | e16-2( f g f e d c-3 b | a4.) \acciaccatura { gis'8\f } a8 | a,4. \acciaccatura { gis'8 } a8 | a,4. b16-4\p( a16 \break
 
     gis16 a-1 b c d-1 e fis gis | a-1 b c d e8) \acciaccatura { dis8 } e8\f | e,4. \acciaccatura { dis'8 } e8 | e,4. \acciaccatura { dis'8 } e8 |
     e,8[  \acciaccatura { dis'8 } e8 e,8 \acciaccatura { dis'8 } e8] \break
 
-    e,8 f16-4( e d c b-3 a-1 | gis8\noBeam-4) f16-4( e d c b a gis8\noBeam) e16-1\p f fis g gis a ais b c cis d dis e f \break
+    e,8 f16-4( e d c b-3 a-1 | gis8\noBeam-3) f16-4( e d c b a gis8-4\noBeam) e16-1\p f fis g gis a ais b c cis d dis e f \break
 
     fis g gis a ais b c cis d dis e f fis g gis b | a8[ a,8-.-1 a-.-3 a-.-2] | a8.-1( c32 b32 a8-.) a8-.-2 | a16-1( b c b a b c d \break
 
-    e4.) e8-.-2 | \acciaccatura { gis8 } a8-.[ a,8-. \acciaccatura { cis'8 } d8-. d,8-.] \acciaccatura { dis'8 } e8 e,8-. r16 e16 e' e, | e' e, e' e, e' e, e' e, |    
+    e4.) e8-.-2 | \acciaccatura { gis8 } a8-.[ a,8-. \acciaccatura { cis'8 } d8-. d,8-.] \acciaccatura { dis'8 } e8 e,8-. r16 e16 e' e, | e'-> e, e' e, e' e, e' e, |    
     e'( d c b a g-3 f e) \break
 
     f'16-5( e d c b a-3 g f) | e'-5( d c b a g-3 f e | d-4 c b a gis8-.) gis8-.-2 | e''16-5( d c b a g-3 f e) \break
@@ -43,7 +43,7 @@ righthand =  {
 
     b,16 b' g-4 d-2 c c' g-3 e-2 | a,16 a' f-4 c-2 b b' f-3 d-2 | g,16 g' e-4 b-2 a a' e-3 c-2 | f,16 f' d-4 a-2 g g' d-3 b-2 | e,16 e' c-4 g-2 f f' c-3 a-2 \break
 
-    r16\f e16( b' d e d b e, | e'8-.) r8 r4 | r16 e,16( a c-4 e c a e | e'8-.) r8 r4 | r16 e,( gis b-3 e8-.) r8 | r16 e,( a c-4 e8-.) r8 \break
+    r16\f e16( b'-2 d-4 e d b e, | e'8-.) r8 r4 | r16 e,16( a c-4 e c a e | e'8-.) r8 r4 | r16 e,( gis b-3 e8-.) r8 | r16 e,( a c e8-.) r8 \break
 
     r8 e,16-1( fis gis a-1 b cis | dis e-1 fis gis a-1 b cis dis) | e8[ e,8-.-1\f e-.-2 e-.-1] | R2 | \acciaccatura { dis8-4 } e8-5[ e,-.-1 e-.-2 e-.-1] \break
 
@@ -56,7 +56,7 @@ righthand =  {
     a4.) \acciaccatura { gis'8\f } a8 | a,4. \acciaccatura { gis'8 } a8 | a,4. b16-4( a | gis16 a-1 b c d-1 e fis gis | a-1 b c d e8) \acciaccatura { dis8 } e8\f \break
 
     e,4. \acciaccatura { dis'8 } e8 | e,4. \acciaccatura { dis'8 } e8 | e,8[  \acciaccatura { dis'8 } e8 e,8 \acciaccatura { dis'8 } e8] |
-      e,8 f16-4( e d c b-3 a-1 | gis8\noBeam-4) f16-4( e d c b a \break
+      e,8 f16-4( e d c b-3 a-1 | gis8\noBeam-3) f16-4( e d c b a \break
 
     gis8\noBeam) e16-1\p f fis g gis a ais b c cis d dis e f | fis g gis a ais b c cis d dis e f fis g gis b \break
 
