@@ -86,8 +86,12 @@ lefthand =  {
     % bottom stave starts with invisible note due to https://sourceforge.net/p/testlilyissues/issues/34
     \acciaccatura { s8\pp }
 
-    a8 <c e> <c e> <c e> |
-    s2*116
+    << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | a8([ <c e>-.) a8( <c e>-.]) |
+      << { gis8[ <b e>-. <b e>-. <b e>-.] } \\ { gis2 } >> | << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> |
+
+    << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> | gis8([ <c d e>-.) gis8( <c d e>-.]) |
+
+    s2*110
 
     a,4-. a'4-. |
 
@@ -110,8 +114,8 @@ lefthand =  {
     left-margin = 15
     right-margin = 15
     system-system-spacing = #'((basic-distance . 13)
-                              (minimum-distance . 12)
-                              (padding . 6))
+                              (minimum-distance . 9)
+                              (padding . 5))
     ragged-bottom = ##t
     ragged-last-bottom = ##t
   }
