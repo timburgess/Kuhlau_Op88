@@ -104,8 +104,14 @@ lefthand =  {
 
   \clef "bass"
   \relative c' {
+    <gis b d e>8 r8 <a c e>8 r8 |
 
-    s2*104
+    <e gis b e>8 r8 r4 | R2*5 |
+
+    << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | a8[ <c e>-. a8 <c e>-.] |
+    
+
+    s2*93
 
     a,4-. a'4-. |
 
