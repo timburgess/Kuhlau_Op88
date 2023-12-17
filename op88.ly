@@ -68,9 +68,9 @@ righthand =  {
     e''16-5( d c b a g-3 f e) | f'16-5( e d c b a-3 g f) | e'-5( d c b a g-3 f e | d-4 c b a-1 gis-2 a-3 b-4 gis-2 \break
 
     a8-1) b16 c d-1 e fis gis | a8-5( g16 f e d c-3 b | \stemUp a8 g16-4 f e d c 
-       \change Staff = "bottom" { b } \break
+       \change Staff = "bottom" { b \break
     
-    a8-1 g16-4 f e d c b | a4-.->) r4 | \change Staff = "top" { <c' e a>4-.\ff  <e a c>-. }
+    a8-1 g16-4 f e d c b | a4-.->) r4 } | \change Staff = "top" { <c' e a>4-.\ff  <e a c>-. }
 
     s2 s2 
 
@@ -90,8 +90,22 @@ lefthand =  {
       << { gis8[ <b e>-. <b e>-. <b e>-.] } \\ { gis2 } >> | << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> |
 
     << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> | gis8([ <c d e>-.) gis8( <c d e>-.]) |
+      << { a8[( <c e>) <c e>-.] r8 } \\ { a4. r8 } >> |
+        << { a8[( <d f>) <d f>-.] r8 } \\ { a4. r8 } >> |
+          << { a8[( <c e>) <c e>-.] r8 } \\ { a4. r8 } >> |
 
-    s2*110
+    << { e8-5[ <b' d>-. <b d>-. <b d>-.] } \\ { e,2 } >> | <a c>4 r4 |
+  }
+
+  \clef "treble"
+  \relative c' {
+    << { d8-5[( <e gis b>) <e gis b>-.] r8 } \\ { d4. } >> | << { c8[( <e a>) <e a>-.] r8 } \\ { c4. } >> | 
+  }
+
+  \clef "bass"
+  \relative c' {
+
+    s2*104
 
     a,4-. a'4-. |
 
@@ -99,9 +113,6 @@ lefthand =  {
       { <c, e a>2~ | <c e a>4 r4 } \\ { <a,~ a'~>2 <a a'>4 r4 }
     >>
     
-
-
-
   \bar "|."
   }
 }
@@ -138,3 +149,4 @@ lefthand =  {
   \midi { }
 }
    
+
