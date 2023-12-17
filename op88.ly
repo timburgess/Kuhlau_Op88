@@ -26,7 +26,7 @@ righthand =  {
     fis g gis a ais b c cis d dis e f fis g gis b | a8[ a,8-.-1 a-.-3 a-.-2] | a8.-1( c32 b32 a8-.) a8-.-2 | a16-1( b c b a b c d \break
 
     e4.) e8-.-2 | \acciaccatura { gis8 } a8-.[ a,8-. \acciaccatura { cis'8 } d8-. d,8-.] \acciaccatura { dis'8 } e8 e,8-. r16 e16 e' e, | e'-> e, e' e, e' e, e' e, |    
-    e'( d c b a g-3 f e) \break
+    e'\f( d c b a g-3 f e) \break
 
     f'16-5( e d c b a-3 g f) | e'-5( d c b a g-3 f e | d-4 c b a gis8-.) gis8-.-2 | e''16-5( d c b a g-3 f e) \break
 
@@ -63,7 +63,7 @@ righthand =  {
     a8[ a,8-.-1 a-.-3 a-.-2] | a8.-1( c32 b32 a8-.) a8-.-2 | a16-1( b c b a b c d | e4.->) e8-.-2 |
       \acciaccatura { gis8 } a8-.[ a,8-. \acciaccatura { cis'8 } d8-. d,8-.] \acciaccatura { dis'8 } e8 e,8-. r16 e16 e' e, \break
 
-    e' e, e' e, e' e, e' e, | e'( d c b a g-3 f e) | f'16-5( e d c b a-3 g f) | e'-5( d c b a g-3 f e | d-4 c b a gis8-.) gis8-.-2 \break
+    e' e, e' e, e' e, e' e, | e'\f( d c b a g-3 f e) | f'16-5( e d c b a-3 g f) | e'-5( d c b a g-3 f e | d-4 c b a gis8-.) gis8-.-2 \break
 
     e''16-5( d c b a g-3 f e) | f'16-5( e d c b a-3 g f) | e'-5( d c b a g-3 f e | d-4 c b a-1 gis-2 a-3 b-4 gis-2 \break
 
@@ -110,8 +110,16 @@ lefthand =  {
 
     << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | a8[ <c e>-. a8 <c e>-.] |
     
+    gis8-.-5[ <b e>-. g8-5 <cis-1 e-2>-.] | fis,8-.-5[ <a d>-. f8-5 <a d>-.] | e8-.[ <a c>-. d,8-. <gis b>-.] | c,8-.[ <e a>-. b8-. <d gis>-.] |
+      << { a8[ <c e a> <c e a> <c e a>] } \\ { a2 } >> |
 
-    s2*93
+    << { d8-5[ <f a b> <f a b> <f a b>] } \\ { d2 } >> | << { e8[ <a c> <a c> <a c>] } \\ { e2 } >> | << { e8[ <b' e> <b e> <b e>] } \\ { e,2 } >> |
+      << { c8-5[ <e-3 a> <e a> <e a>] } \\ { c2 } >> |
+
+    << { d8-5[ <f a b> <f a b> <f a b>] } \\ { d2 } >> | << { e8[ <a c> <a c> <a c>] } \\ { e2 } >> | << { e8[ <b' e> <b e> <b e>] } \\ { e,2 } >> |
+      <a c>4 r4 | R2 |
+
+    s2*81
 
     a,4-. a'4-. |
 
@@ -126,15 +134,15 @@ lefthand =  {
  \paper {
     #(set-paper-size "a4")
     max-systems-per-page = 6
-    top-margin = 15
-    bottom-margin = 15
-    left-margin = 15
-    right-margin = 15
-    system-system-spacing = #'((basic-distance . 13)
-                              (minimum-distance . 9)
-                              (padding . 5))
-    ragged-bottom = ##t
-    ragged-last-bottom = ##t
+    %top-margin = 15
+    %bottom-margin = 15
+    %left-margin = 15
+    %right-margin = 15
+    %system-system-spacing = #'((basic-distance . 13)
+    %                          (minimum-distance . 9)
+    %                          (padding . 5))
+    %ragged-bottom = ##t
+    %ragged-last-bottom = ##t
   }
 
 \score {
