@@ -143,7 +143,7 @@ lefthand =  {
       \stemDown <gis-1 b-3>2
     }
 
-    s2*58
+    s2*54
 
     a,4-. a'4-. |
 
