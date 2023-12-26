@@ -128,24 +128,64 @@ lefthand =  {
     a8-4[ c-2 f, d'] | g,8-4[ b e, c'] | f,8-4[ a d,-2 b'] | e,-4[ gis-2 cis,-5 g'-1] | d-4[ fis-2 b,-5 f'-1] | c-4[ e-2 a,-5 ees'-2] | g,-5[ ees' fis,-5 ees'] |    
 
     % 46
-    \stemDown g,8[ d'8-2 g8 f-4] | e8([ g-4 c-2 e-1] | d a') g,-5( d'-2 | c g') f,( c'-2 | b f') e,( b'-2 | a e') d,( a'-2 | g d') a-2( c \break
+    \stemDown g,8[ d'8-2 g8 f-4] | e8([ g-4 c-2 e-1] | d a') g,-5( d'-2 | c g') f,( c'-2 | b f') e,( b'-2 | a e') d,( a'-2 | g d') a-2( c
 
     % 53
     f,-4[ a g d']) | 
-    \clef "treble"
-    \relative c' {
-      \stemUp r16 c-5 d e f g a-3 b | c4-1( a4) | b4( g4) | a4-1( f4) | g4( e4) | f4( d4) | e4( c4) | d4( b4) | c4( a4)  
-    }
+  }
 
-    % 63
-    \clef "bass"
-    \relative c' {
-      \stemDown <gis-1 b-3>2
-    }
+  \clef "treble"
+  \relative c' {
+    \stemUp r16 c-5 d e f g a-3 b | c4-1( a4) | b4( g4) | a4-1( f4) | g4( e4) | f4( d4) | e4( c4) | d4( b4) | c4( a4)  
+  }
 
-    s2*54
+  % 63
+  \clef "bass"
+  \relative c' {
+    \stemDown <gis-3 b-1>2~ | <gis b>8[ e-.-5 e-. e-.] | <a c>2~ | <a c>8[ e-.-5 e-. e-.] | <b' d>4.( e,8-.) | <a c>4.( e8-.) |
 
-    a,4-. a'4-. |
+    <gis b>4-- r4 | R2 | R2 | \acciaccatura { dis'8-4 } e8[ e,-.-5 e-.-4 e-.-3] | R2 |
+
+    \acciaccatura { dis8-4 } e8[ e,-.-5 e-.-4 e-.-3] | R2*2 |
+      << { a'8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | a8([ <c e>-.) a8( <c e>-.]) |
+
+      % 74
+      << { gis8[ <b e>-. <b e>-. <b e>-.] } \\ { gis2 } >> | << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> |
+        << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> | gis8([ <c d e>-.) gis8( <c d e>-.]) |
+
+      % 84
+      << { a8[( <c e>) <c e>-.] r8 } \\ { a4. r8 } >> |
+        << { a8[( <d f>) <d f>-.] r8 } \\ { a4. r8 } >> |
+          << { a8[( <c e>) <c e>-.] r8 } \\ { a4. r8 } >> |
+            << { e8-5[ <b' d>-. <b d>-. <b d>-.] } \\ { e,2 } >> | <a c>4 r4 |
+  }
+
+  \clef "treble"
+  \relative c' {
+    << { d8-5[( <e gis b>) <e gis b>-.] r8 } \\ { d4. } >> | << { c8[( <e a>) <e a>-.] r8 } \\ { c4. } >> | 
+  }
+
+  \clef "bass"
+  \relative c' {
+    <gis b d e>8 r8 <a c e>8 r8 | <e gis b e>8 r8 r4 | R2
+
+    % 94
+    R2*4
+
+    % 98
+    << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | a8[ <c e>-. a8 <c e>-.] |
+    
+    gis8-.-5[ <b e>-. g8-5 <cis-1 e-2>-.] | fis,8-.-5[ <a d>-. f8-5 <a d>-.] | e8-.[ <a c>-. d,8-. <gis b>-.] | c,8-.[ <e a>-. b8-. <d gis>-.] |
+      << { a8[ <c e a>-. <c e a>-. <c e a>-.] } \\ { a2 } >> |
+
+    << { d8-5[ <f a b> <f a b> <f a b>] } \\ { d2 } >> | << { e8[ <a c> <a c> <a c>] } \\ { e2 } >> | << { e8[ <b' e> <b e> <b e>] } \\ { e,2 } >> |
+      << { c8-5[ <e-3 a> <e a> <e a>] } \\ { c2 } >> |
+
+    << { d8-5[ <f a b> <f a b> <f a b>] } \\ { d2 } >> | << { e8[ <a c> <a c> <a c>] } \\ { e2 } >> | << { e8[ <b' e> <b e> <b e>] } \\ { e,2 } >> |
+      <a c>4 r4 | a'8-1 g16 f16 e-1 d c b | a8-1 g16 f e d c b |
+
+    % 116
+    a8-1 g16 f e d c b | a4 s4 | a'4-. a'4-. |
 
     <<
       { <c, e a>2~ | <c e a>4 r4 } \\ { <a,~ a'~>2 <a a'>4 r4 }
