@@ -134,10 +134,16 @@ lefthand =  {
     f,-4[ a g d']) | 
     \clef "treble"
     \relative c' {
-      \stemUp r16 c-5 d e f g a-3 b |
+      \stemUp r16 c-5 d e f g a-3 b | c4-1( a4) | b4( g4) | a4-1( f4) | g4( e4) | f4( d4) | e4( c4) | d4( b4) | c4( a4)  
     }
 
-    s2*63
+    % 63
+    \clef "bass"
+    \relative c' {
+      \stemDown <gis-1 b-3>2
+    }
+
+    s2*58
 
     a,4-. a'4-. |
 
