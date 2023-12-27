@@ -89,10 +89,11 @@ lefthand =  {
     % bottom stave starts with invisible note due to https://sourceforge.net/p/testlilyissues/issues/34
     \acciaccatura { s8\pp }
 
-    << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | a8([ <c e>-.) a8( <c e>-.]) |
+    << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8( <c e>-.) a8( <c e>-.) } \\ { a4 a4 } >> |
       << { gis8[ <b e>-. <b e>-. <b e>-.] } \\ { gis2 } >> | << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> |
 
-    << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> | gis8([ <c d e>-.) gis8( <c d e>-.]) |
+    % 6
+    << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> | << { gis8( <b d e>-.) gis8( <b d e>-.) } \\ { gis4 gis4 } >> |
       << { a8[( <c e>) <c e>-.] r8 } \\ { a4. r8 } >> |
         << { a8[( <d f>) <d f>-.] r8 } \\ { a4. r8 } >> |
           << { a8[( <c e>) <c e>-.] r8 } \\ { a4. r8 } >> |
@@ -107,12 +108,12 @@ lefthand =  {
 
   \clef "bass"
   \relative c' {
-    <gis b d e>8 r8 <a c e>8 r8 |
+    <gis b d e>8 r8 <a-4 c-2 e-1>8 r8 |
 
     % 16
     <e gis b e>8 r8 r4 | R2*5 |
 
-    << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | a8[ <c e>-. a8 <c e>-.] |
+    << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8( <c e>-.) a8( <c e>-.) } \\ { a4 a4 } >> |
     
     % 25
     gis8-.-5[ <b e>-. g8-5 <cis-1 e-2>-.] | fis,8-.-5[ <a d>-. f8-5 <a d>-.] | e8-.[ <a c>-. d,8-. <gis b>-.] | c,8-.[ <e a>-. b8-. <d gis>-.] |
@@ -147,14 +148,16 @@ lefthand =  {
     <gis b>4-- r4 | R2 | R2 | \acciaccatura { dis'8-4 } e8[ e,-.-5 e-.-4 e-.-3] | R2 |
 
     \acciaccatura { dis8-4 } e8[ e,-.-5 e-.-4 e-.-3] | R2*2 |
-      << { a'8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | a8([ <c e>-.) a8( <c e>-.]) |
+      << { a'8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> |
 
       % 74
+      << { a8( <c e>-.) a8( <c e>-.) } \\ { a4 a4 } >> |
       << { gis8[ <b e>-. <b e>-. <b e>-.] } \\ { gis2 } >> | << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> |
-        << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> | gis8([ <c d e>-.) gis8( <c d e>-.]) |
+        << { gis8[ <b d e>-. <b d e>-. <b d e>-.] } \\ { gis2 } >> | << { gis8( <b d e>-.) gis8( <b d e>-.) } \\ { gis4 gis4 } >> |
 
       % 84
       << { a8[( <c e>) <c e>-.] r8 } \\ { a4. r8 } >> |
+
         << { a8[( <d f>) <d f>-.] r8 } \\ { a4. r8 } >> |
           << { a8[( <c e>) <c e>-.] r8 } \\ { a4. r8 } >> |
             << { e8-5[ <b' d>-. <b d>-. <b d>-.] } \\ { e,2 } >> | <a c>4 r4 |

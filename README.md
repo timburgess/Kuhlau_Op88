@@ -22,3 +22,7 @@ the hardest section for the right hand) were incorrect. And sometimes with finge
 
 - LH starts *pp*
 
+### Note
+
+Watch this repo if you want to see any future tweaks/fixes
+
