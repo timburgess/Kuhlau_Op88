@@ -61,6 +61,7 @@ righthand =  {
     e,4. \acciaccatura { dis'8 } e8 | e,4. \acciaccatura { dis'8 } e8 | e,8[  \acciaccatura { dis'8 } e8 e,8 \acciaccatura { dis'8 } e8] |
       e,8 f16-4( e d c b-3 a-1 | gis8\noBeam-3) f16-4( e d c b a \break
 
+    % 94
     gis8\noBeam) e16-1\p f fis g gis a ais b c cis d dis e f | fis g gis a ais b c cis d dis e f fis g gis b \break
 
     a8[ a,8-.-1 a-.-3 a-.-2] | a8.-1( c32 b32 a8-.) a8-.-2 | a16-1( b c b a b c d | e4.->) e8-.-2 |
@@ -176,7 +177,7 @@ lefthand =  {
     R2*4
 
     % 98
-    << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | a8[ <c e>-. a8 <c e>-.] |
+    << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. <c e>-. <c e>-.] } \\ { a2 } >> | << { a8[ <c e>-. a8 <c e>-.] } \\ { a4 a4 } >> |
     
     gis8-.-5[ <b e>-. g8-5 <cis-1 e-2>-.] | fis,8-.-5[ <a d>-. f8-5 <a d>-.] | e8-.[ <a c>-. d,8-. <gis b>-.] | c,8-.[ <e a>-. b8-. <d gis>-.] |
       << { a8[ <c e a>-. <c e a>-. <c e a>-.] } \\ { a2 } >> |
