@@ -137,7 +137,7 @@ lefthand =  {
 
   \clef "treble"
   \relative c' {
-    \stemUp r16 c-5 d e f g a-3 b | c4-1( a4) | b4( g4) | a4-1( f4) | g4( e4) | f4( d4) | e4( c4) | d4( b4) | c4( a4)  
+    \stemUp r16 c-5( d e f g a-3 b | c4-1->)( a4-.) | b4->( g4-.) | a4->-1( f4-.) | g4->( e4-.) | f4->( d4-.) | e4->( c4-.) | d4->( b4-.) | c4->( a4-.)  
   }
 
   % 63
